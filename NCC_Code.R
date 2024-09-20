@@ -32,8 +32,8 @@ library(gridExtra)
 library(cowplot)
 
 ## ------------------------------------------------------------------------------------------------------------------
-# Set working directory to folder with downloaded ffsr.xlsx dataset
-setwd("~/Dropbox/Fossil Fuel Subsidy Reform/R markdowns/replication/")
+# Set working directory to folder with downloaded data
+# setwd()
 
 ## ------------------------------------------------------------------------------------------------------------------
 ffsr <- read_excel("ffsr.xlsx") %>%
